@@ -16,7 +16,8 @@ class TaskOneController extends Controller
             'utc_time'=>$utcTime,
             'track'=>request('track'),
             'status_code'=>200,
-          
+            'github_file_url'=>'https://github.com/yunus2001/HNG10_Task_one/blob/master/app/Http/Controllers/TaskOneController.php',
+            'github_repo_url'=>'https://github.com/yunus2001/HNG10_Task_one',
         ];
         return response()->json($taskOne) ;
     }
